@@ -7,9 +7,9 @@ class Clash < Formula
 
   def install
    if Hardware::CPU.arm?
-      bin.install "clash_darwin_arm64" => "clash"
+      bin.install "clash-darwin-arm64" => "clash"
     else
-      bin.install "clash_darwin_amd64" => "clash"
+      bin.install "clash-darwin-amd64" => "clash"
     end
   end
 
