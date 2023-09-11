@@ -4,7 +4,7 @@ cask "teams" do
   version "1.0"
   sha256 "26e5ec8fdf86d4a1bd9f5e8af04220b573cd29fd5ff8a19161a3d3c49032ae5b"
 
-  url "https://damoncoo.s3.ap-southeast-1.amazonaws.com/Teams.tar.gz"
+  url "https://github.com/damoncoo/simulator/raw/master/teams.tar.gz"
   name "Microsoft Teams"
   name "Teams"
   desc "Teams app from Microsoft"
